@@ -5,26 +5,15 @@
 
 const prompt = require("prompt-sync")()
 
-const dia = prompt("Digite uma numeração de 1 a 7: ")
+const dia = prompt("Digite código de status HTTP 200, 404 e 500: ")
 
 switch(dia) {
-    case '1':
-        console.log("Segunda-feira")
+    case '200':
+        console.log("OK")
         break
-    case '2':
-        console.log("Terça-feira")
+    case '404':
+        console.log("Not Found")
         break
-    case '3':
-        console.log("Quarta-feira")
-        break
-    case '4':
-        console.log("Quinta-feira")
-        break
-    case '5':
-        console.log("Sexta-feira")
-        break
-    case '6':
-        console.log("Sábado")
-    case '7':
-        console.log("Domingo")
+    default:
+        console.log("Internal Serve Error")
 }

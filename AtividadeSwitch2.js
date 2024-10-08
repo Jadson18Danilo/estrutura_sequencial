@@ -20,4 +20,6 @@ switch(nota) {
     case '7' || '8' || '9' ||  '10':
                 console.log("Aprovado")
         break
+    default:
+        console.log("Operação Inválida")
 }

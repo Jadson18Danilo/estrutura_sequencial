@@ -5,10 +5,10 @@
 
 const prompt = require("prompt-sync")()
 
-const fruta = prompt("Digite uma numeração de 1 a 7: ")
+const fruta = prompt("Escolha uma fruta maça, banana ou laranja : ")
 
 switch(fruta) {
-    case 'baça':
+    case 'maça':
         console.log("R$ 2,50")
         break
     case 'banana':

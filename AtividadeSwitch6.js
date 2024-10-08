@@ -6,7 +6,7 @@
 
 const prompt = require("prompt-sync")()
 
-const dia = prompt("Digite a categória entre A, B, C, D ou E: ")
+const dia = prompt("Digite a categória entre a, b, c, d ou e: ")
 
 switch(dia) {
     case 'a':
